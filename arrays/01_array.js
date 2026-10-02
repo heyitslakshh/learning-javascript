@@ -37,3 +37,4 @@ console.log(newarr);
 const newarr2=marvelheroes.join(" ** "); 
 // it will join the elements of the array into a string with the specified separator
 console.log(newarr2);
+
