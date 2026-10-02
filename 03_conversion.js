@@ -19,3 +19,4 @@ let boolenans= Boolean(ans) // converts string to boolean output will be false b
 console.log(boolenans);
 
 console.log(Boolean(ans2)); // converts string to boolean   output will be true because ans2 is not empty string
+
