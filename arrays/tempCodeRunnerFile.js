@@ -1,1 +1,1 @@
-Object.freeze(user) 
+ 
