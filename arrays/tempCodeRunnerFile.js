@@ -1,1 +1,1 @@
-marvelheros.push(dcheroes)
+Object.freeze(user) 
