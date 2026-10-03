@@ -12,7 +12,7 @@ console.log(allheroes)
 const allheros=[...marvelheros, ...dcheroes] //here their is no limitation of using arrays we can use multiple arrays by doing this ...nameofarray and 
 //it will do the same work of array conct.
 
-const anotherarray = [1,2,3,4,5,[6,7,8],9,[4,5,[4,5]]]
+const anotherarray = [1,2,3,4,5,[6,7,8],9,[4,5,[4,5]]] 
 
 const realanotherarray= anotherarray.flat(2) //here we give depth as a parametere.
 
