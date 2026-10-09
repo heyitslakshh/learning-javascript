@@ -2,7 +2,7 @@ let myDate =new Date()
 console.log(myDate); // This will output the current date and time
 console.log(myDate.toString());
  // This will output the date and time in a human-readable format
-console.log(myDate.toJSON()); 
+console.log("JSON:", myDate.toJSON()); 
 // This will output the date and time in JSON format
 console.log(myDate.toISOString()); 
 // This will output the date and time in ISO format

@@ -31,7 +31,8 @@ marvelheroes.splice(0, 0, "Doctor Strange", "Scarlet Witch"); //here start is th
 // 0 is the number of elements we want to remove, and the rest are the elements we want to add.      
 console.log(marvelheroes) 
 
-const newarr=marvelheroes.slice(0, 3);
+const newarr=marvelheroes.slice(0, 3); 
+//in this case, it will return a new array with the elements from index 0 to index 2 (3 is not included) of the original array.
 console.log(newarr);
 
 const newarr2=marvelheroes.join(" ** "); 

@@ -8,7 +8,7 @@ const user = {
     "full name":"kumar lakshya",
     name: "lakshya",//here name is key and the value is lakshya .
     age: 21,
-    [mysym]:"mykey1",
+    [mysym]:"mykey1", //if we want mysym to be a key of the object then we have to use [] brackets.
     email: "kumarlakshya754@gmail.com",
     location: "Greater Noida",
     isLoggedin: true,
@@ -23,10 +23,11 @@ user.email="chatgpt.com"
 console.log(user.email)
 
 // Object.freeze(user) // it uses to freeze the object values.
-user.email="hilakshya.com" //so here the value of email hasnt changed
-console.log(user)
+//user.email="hilakshya.com" //so here the value of email hasnt changed
+//console.log(user)
 
-user.greeting = function(){
+user.greeting = function(){ 
+    // this is a method of object user and it will return the string hello js user.
     console.log("hello js user")
 }
 
