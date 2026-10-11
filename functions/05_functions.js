@@ -61,4 +61,3 @@ const returnObject = (a,b) => ({a:a, b:b});
  console.log(returnObject(5,10)); // calling the function to execute the code inside it. It will give the output of the function returnObject.
 
 const myArray = [1,2,3,4,5,6,7,8,9,10];
-
